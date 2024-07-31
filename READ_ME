@@ -30,9 +30,9 @@ eksctl create cluster --name eks-cluster-demo --version 1.30 --region ap-southea
 git clone https://github.com/pvkraja227/EKS_EKSCTL.git (o/p: knote.yaml mongo.yaml)
 
 kubectl get pods (0)
-kubectl get svc (default)
+kubectl get svc (default - 1)
 kubectl get nodes (2)
-kubectl get ns (default -4)
+kubectl get ns (default - 4)
 
 kubectl apply -f knote.yaml
 kubectl apply -f mongo.yml
