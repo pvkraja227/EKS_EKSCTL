@@ -1,6 +1,6 @@
 Take an EC2
 
-(Install AWS CLI)
+(Install unzip and AWS CLI)
 
 sudo apt install unzip
 
